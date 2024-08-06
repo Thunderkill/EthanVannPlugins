@@ -16,7 +16,7 @@ public class BankItemWidget implements Widget {
     int itemid;
     int quantity;
 
-    BankItemWidget(String name, int itemid, int quantity, int index) {
+    public BankItemWidget(String name, int itemid, int quantity, int index) {
         this.name = name;
         this.itemid = itemid;
         this.quantity = quantity;
